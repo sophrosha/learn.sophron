@@ -1,0 +1,42 @@
+node_modules
+
+# -==
+#  VUEJS
+# -==
+
+# Зависимости
+src/frontend/node_modules/
+
+# Сборка
+src/frontend/dist/
+src/frontend/dist-ssr/
+
+# Переменные окружения
+src/frontend/.env
+src/frontend/.env.*
+!src/frontend/.env.example
+
+# Кэши и логи
+src/frontend/*.log
+src/frontend/npm-debug.log*
+src/frontend/yarn-debug.log*
+src/frontend/yarn-error.log*
+
+# Editor & OS
+src/frontend/.idea/
+src/frontend/.vscode/
+src/frontend/.DS_Store
+src/frontend/Thumbs.db
+
+# Vite cache
+src/frontend/.vite/
+
+# Тесты
+src/frontend/coverage/
+
+# -==
+# EXPRESSJS
+# -==
+
+# Модули
+src/backend/node_modules
